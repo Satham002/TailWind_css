@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- https://tailwindcss.com/resources -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class="p-5 md:p-10 text-gray-800">
+    <!-- ------------Hero Start------ -->
+    <section class="bg-purple-100 rounded-2xl p-5 my-8">
+        <div class="container mx-auto">
+            <div class="flex">
+                <a href="#" class="text-3xl font-bold pr-5 border-r mr-5 border-purple-300">Agencies</a>
+                <div class="my-auto">
+                    <button class="lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+
+                    </button>
+                    <ul class="hidden lg:flex font-bold text-gray-600">
+                        <li class="pr-5"><a href="#"
+                                class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded">Home</a></li>
+                        <li class="pr-5"><a href="#"
+                                class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded">about</a>
+                        </li>
+                        <li class="pr-5"><a href="#"
+                                class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded">Services</a>
+                        </li>
+                        <li class="pr-5"><a href="#"
+                                class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded">portfolio</a>
+                        </li>
+                        <li class="pr-5"><a href="#"
+                                class="px-3 py-2 border border-purple-100 hover:border-purple-300 rounded">Contect</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="text-medium bg-red-500 text-white px-3 py-2 rounded font-bold ml-auto flex">
+                    <!-- I need to learn must from (hidden lg:block this class[media query tag])-->
+                    <span class="pr-1 hidden lg:block">
+                        Get Quotes</span>
+                    <!-- I need to learn must To -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6 self-center">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                    </svg>
+                </a>
+
+            </div>
+            <div>
+                <ul class="hidden lg:hidden font-bold text-gray-600">
+                    <li class="mt-1"><a href="#" class="py-2 ">Home</a></li>
+                    <li class="mt-1"><a href="#" class="py-2">about</a>
+                    </li>
+                    <li class="mt-1"><a href="#" class="py-2">Services</a>
+                    </li>
+                    <li class="mt-1"><a href="#" class="py-2">portfolio</a>
+                    </li>
+                    <li class="mt-1"><a href="#" class="py-2">Contect</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hidden ">
+                <img src="./assets/images/hero2.svg" alt="">
+            </div>
+            <div class="flex lg:py-36 py-12">
+                <!-- 1 -->
+                <div class="w-full lg:w-1/2">
+                    <h2 class="text-center lg:text-left text-3xl lg:text-7xl font-bold lg:font-semibold">
+                        World Class design for your products
+                    </h2>
+                    <p class="text-center lg:text-left mt-4 lg:mt-8 text-2xl text-gray-600">Lorem ipsum dolor sit amet
+                        consectetur adipisicing
+                        elit. A
+                        pariatur
+                        excepturi,
+                        aperiam culpa
+                        architecto </p>
+                    <div class="justify-center lg:justify-start flex mt-12 ml-5">
+                        <a href="#" class="mr-5 text-lg bg-purple-600 text-white px-3 py-2 rounded">Services</a>
+                        <a href="#" class="mr-5 text-lg bg-red-600 text-white px-3 py-2 rounded">Contect&nbsp;us</a>
+                    </div>
+                </div>
+                <!-- 1/ -->
+                <!-- 2 -->
+                <div class="lg:w-1/2 hidden lg:flex">
+                    <img src="./assets/images/hero2.svg" alt="">
+                </div>
+                <!-- 2/ -->
+            </div>
+            <div class="flex justify-center">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+                    </svg>
+                </div>
+                <div class="ml-2">Scroll Down</div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ------Hero End--------- -->
+    <!-- ----Our Service start----------- -->
+    <section class="bg-pink-100 rounded-2xl p-5 my-8">
+        <div class="container mx-auto">
+            <div class="py-16 lg:py-28">
+                <h2 class="text-center font-bold text-3xl lg:text-5xl">Our Services</h2>
+                <p class="lg:w-1/2 text-center  mx-auto mt-5 text-2xl pt-5">Lorem ipsum dolor sit amet consectetur
+                    adipisicing
+                    elit.
+                    Recusandae
+                    est
+                    distinctio laborum iure sed
+                    molestias consectetur, minima cupiditate quaerat earum aut quidem nostrum, quis cumque laudantium.
+                    Sed dolorem voluptate ab.</p>
+            </div>
+            <div class="flex flex-wrap pb:16 lg:pb-28 justify-center">
+                <div class="w-full lg:w-1/2 xl:w-1/3 py-5 lg:p-5">
+                    <div class="bg-white p-10 rounded-2xl shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-16 h-16 mb-12 text-blue-500">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Zm6-10.125a1.875 1.875 0 1 1-3.75 0 1.875 1.875 0 0 1 3.75 0Zm1.294 6.336a6.721 6.721 0 0 1-3.17.789 6.721 6.721 0 0 1-3.168-.789 3.376 3.376 0 0 1 6.338 0Z" />
+                        </svg>
+                        <h3 class="text-2xl font-bold text-gray-700">Design</h3>
+                        <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum iusto eos
+                            voluptate debitis
+                            qui, eum ex eveniet beatae non voluptatibus inventore molestiae neque, alias laboriosam
+                            quasi odit! Dolorum, provident ut.</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-1/3 py-5 lg:p-5">
+                    <div class="bg-white  p-10 rounded-2xl shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-16 h-16 mb-12 text-green-500">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                        </svg>
+                        <h3 class="text-2xl font-bold text-gray-700">Development</h3>
+                        <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum iusto eos
+                            voluptate debitis
+                            qui, eum ex eveniet beatae non voluptatibus inventore molestiae neque, alias laboriosam
+                            quasi odit! Dolorum, provident ut.</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-1/3 py-5 lg:p-5">
+                    <div class="bg-white  p-10 rounded-2xl shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-16 h-16 mb-12 text-red-500">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V13.5Zm0 2.25h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V18Zm2.498-6.75h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V13.5Zm0 2.25h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V18Zm2.504-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V18Zm2.498-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5ZM8.25 6h7.5v2.25h-7.5V6ZM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 0 0 2.25 2.25h10.5a2.25 2.25 0 0 0 2.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0 0 12 2.25Z" />
+                        </svg>
+                        <h3 class="text-2xl font-bold text-gray-700">Digital Marketing</h3>
+                        <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum iusto eos
+                            voluptate debitis
+                            qui, eum ex eveniet beatae non voluptatibus inventore molestiae neque, alias laboriosam
+                            quasi odit! Dolorum, provident ut.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- -----Our Service End----------- -->
+    <!-- ----Our Trusted Company start----------- -->
+    <section class="rounded-2xl p-5 my-8">
+        <div class="container mx-auto p-0 lg:px-28">
+            <div class="border bg-green-500 rounded-2xl p-10">
+                <h2 class="text-white font-bold lg:text-3xl text-2xl text-center">Compaines Who Trusted on us</h2>
+                <div class="flex flex-wrap justify-center pt-8">
+                    <div class="p-5 w-full md:1/2 lg:1/3 xl:w-1/4">
+                        <img src="./assets/images/dummy_logo.png" alt="Dummy_logo" class="mx-auto max-h-12">
+                    </div>
+                    <div class="p-5 w-full md:1/2 lg:1/3 xl:w-1/4">
+                        <img src="./assets/images/dummy_logo.png" alt="Dummy_logo" class="mx-auto max-h-12">
+                    </div>
+                    <div class="p-5 w-full md:1/2 lg:1/3 xl:w-1/4">
+                        <img src="./assets/images/dummy_logo.png" alt="Dummy_logo" class="mx-auto max-h-12">
+                    </div>
+                    <div class="p-5 w-full md:1/2 lg:1/3 xl:w-1/4">
+                        <img src="./assets/images/dummy_logo.png" alt="Dummy_logo" class="mx-auto max-h-12">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----Our Trusted Company End----------- -->
+    <!-- ------Portfolio Start----------------- -->
+    <section class="bg-pink-100 rounded-2xl p-5 my-8">
+        <div class="container mx-auto">
+            <div class="py-16 lg:py-28">
+                <h2 class="text-center font-bold text-3xl lg:text-5xl">Portfolio</h2>
+                <p class="lg:w-1/2 text-center  mx-auto mt-5 text-2xl pt-5">Lorem ipsum dolor sit amet consectetur
+                    adipisicing
+                    elit.
+                    Recusandae
+                    est
+                    distinctio laborum iure sed
+                    molestias consectetur, minima cupiditate quaerat earum aut quidem nostrum, quis cumque laudantium.
+                    Sed dolorem voluptate ab.</p>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-1/2 pt-24">
+                    <div class="border border-block w-8/12 mx-auto">
+                        <div class="bg-white">test
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/2 py-12">
+                    <div class="border border-block w-8/12 mx-auto">
+                        <div class="bg-white">test
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/2 pt-24">
+                    <div class="border border-block w-8/12 mx-auto">
+                        <div class="bg-white">test
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/2 py-12">
+                    <div class="border border-block w-8/12 mx-auto">
+                        <div class="bg-white">test
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/2 pt-24">
+                    <div class="border border-block w-8/12 mx-auto">
+                        <div class="bg-white"> test</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------Portfolio End----------------- -->
+
+</body>
+
+</html>
